@@ -1,0 +1,5 @@
+author: "Teon Banek"
+
+# Build options
+markdown: redcarpet
+exclude: ["Gemfile", "Gemfile.lock"]
