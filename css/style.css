@@ -116,6 +116,10 @@ a:hover > h3 {
   word-wrap: break-word;
 }
 
+li {
+  margin-bottom: 10px;
+}
+
 .tag-list {
   padding-left: 20%;
 }
