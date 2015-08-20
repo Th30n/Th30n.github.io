@@ -20,6 +20,10 @@ a {
   outline-style: none;
 }
 
+a:focus {
+  outline-style: dotted;
+}
+
 /* Site title */
 
 .site-header {
