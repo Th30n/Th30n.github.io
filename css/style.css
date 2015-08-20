@@ -49,6 +49,18 @@ h2 {
   color: #19804d;
 }
 
+.about-link {
+  position: absolute;
+  left: 85%;
+  top: 20%;
+  width: 15%;
+  word-wrap: break-word;
+}
+
+.about-link:hover {
+  color: #dae6da;
+}
+
 /* Copyright footer */
 .site-footer {
   clear: both;
