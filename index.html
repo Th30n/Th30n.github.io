@@ -1,29 +1,6 @@
 ---
+layout: default
 ---
-
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.title }}</title>
-  <link href="css/style.css" rel="stylesheet">
-</head>
-
-<body class="color-dark-gray bg-gray">
-
-<header>
-<div class="site-header color-gray bg-dark-green">
-  <a href="/" class="about-link">About</a>
-  <div class="site-title">
-    <div class="blog-title">
-    <h1><a href="/">{{ site.title }}</a></h1>
-    <h2 class="color-sea-green" style="clear: both">Blog subtitle</h2>
-    </div>
-  </div>
-</div>
-</header>
 
 <div class="post bg-light-gray">
   <div class="post-content">
@@ -43,25 +20,3 @@
     {% endfor %}
   </div>
 </div>
-
-<div class="tags">
-  <h4>Tags:</h4>
-  <ul class="tag-list">
-    <li><a href="/">Programming</a></li>
-    <li>Graphics</li>
-    <li>Haskell</li>
-    <li>Lisp</li>
-    <li>Vim</li>
-    <li>Algorithms</li>
-  </ul>
-</div>
-
-<footer>
-<div class="site-footer color-gray bg-dark-green">
-  Copyright (C) {{ site.author }} 2015
-</div>
-</footer>
-
-</body>
-
-</html>
