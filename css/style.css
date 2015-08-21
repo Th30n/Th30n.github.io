@@ -44,7 +44,8 @@ a:focus {
 }
 
 h1 > a:hover {
-  color: #dae6da;
+  /*color: #dae6da;*/
+  color: #2a658d;
 }
 
 /* Site subtitle description */
@@ -62,7 +63,8 @@ h2 {
 }
 
 .about-link:hover {
-  color: #dae6da;
+  /*color: #dae6da;*/
+  color: #2a658d;
 }
 
 /* Copyright footer */
@@ -97,17 +99,20 @@ h2 {
 
 .post-tags {
   float: left;
-  color: #19804d;
+  /*color: #19804d;*/
+  color: #2a658d;
 }
 
 .post-date {
   float: right;
-  color: #19804d;
+  /*color: #19804d;*/
+  color: #2a658d;
 }
 
 /* Post title */
 h3 > a:hover {
-  color: #19804d;
+  /*color: #19804d;*/
+  color: #2a658d;
 }
 
 /* Tag list area */
@@ -128,6 +133,7 @@ li {
 }
 
 li > a:hover {
-  color: #19804d;
+  /*color: #19804d;*/
+  color: #2a658d;
   text-decoration: underline;
 }
