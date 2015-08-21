@@ -1,7 +1,33 @@
+.color-dark-gray {
+  color: #353835;
+}
+
+.color-gray {
+  color: #c2ccc2;
+}
+
+.bg-gray {
+  background-color: #c2ccc2;
+}
+
+.bg-light-gray {
+  background-color: #dae6da;
+}
+
+.bg-dark-green {
+  background-color: #002b00;
+}
+
+.color-sea-green {
+  color: #19804d;
+}
+
+.color-blue {
+  color: #2a658d;
+}
+
 body {
   position: absolute;
-  color: #353835;
-  background-color: #c2ccc2;
   margin: 0;
   padding: 0;
   width: 100%;
@@ -28,8 +54,6 @@ a:focus {
 
 .site-header {
   padding-top: 60px;
-  color: #c2ccc2;
-  background-color: #002b00;
   background-image: url(/img/stars_bg.jpg);
   background-size: cover;
 }
@@ -44,7 +68,6 @@ a:focus {
 }
 
 h1 > a:hover {
-  /*color: #dae6da;*/
   color: #2a658d;
 }
 
@@ -53,7 +76,6 @@ h2 {
   padding-left: 5%;
   padding-top: 16px;
   padding-bottom: 16px;
-  color: #19804d;
 }
 
 .about-link {
@@ -63,27 +85,23 @@ h2 {
 }
 
 .about-link:hover {
-  /*color: #dae6da;*/
   color: #2a658d;
 }
 
 /* Copyright footer */
 .site-footer {
   clear: both;
-  background-color: #002b00;
   background-image: url(/img/planet_bg.jpg);
   background-size: cover;
   width: 100%;
   min-height: 16px;
   padding: 8px 0;
   text-align: center;
-  color: #c2ccc2
 }
 
 /* Post area */
 .post {
   float: left;
-  background-color: #dae6da;
   width: 60%;
   min-height: 100%;
   margin-left: 20%;
@@ -99,19 +117,14 @@ h2 {
 
 .post-tags {
   float: left;
-  /*color: #19804d;*/
-  color: #2a658d;
 }
 
 .post-date {
   float: right;
-  /*color: #19804d;*/
-  color: #2a658d;
 }
 
 /* Post title */
 h3 > a:hover {
-  /*color: #19804d;*/
   color: #2a658d;
 }
 
@@ -133,7 +146,6 @@ li {
 }
 
 li > a:hover {
-  /*color: #19804d;*/
   color: #2a658d;
   text-decoration: underline;
 }
