@@ -30,10 +30,12 @@ a:focus {
   padding-top: 60px;
   color: #c2ccc2;
   background-color: #002b00;
-  background-image: url(/img/canvas-bg.jpg);
+  background-image: url(/img/stars_bg.jpg);
+  /*
   border-bottom-style: solid;
   border-bottom-width: 5px;
   border-bottom-color: #19804d;
+  */
 }
 
 .site-title {
@@ -71,7 +73,7 @@ h2 {
 .site-footer {
   clear: both;
   background-color: #002b00;
-  background-image: url(/img/canvas-bg.jpg);
+  background-image: url(/img/planet_bg.jpg);
   width: 100%;
   min-height: 16px;
   padding: 8px 0;
