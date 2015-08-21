@@ -54,7 +54,7 @@ a:focus {
 
 .site-header {
   padding-top: 60px;
-  background-image: url(/img/stars_bg.jpg);
+  background-image: url(../img/stars_bg.jpg);
   background-size: cover;
 }
 
@@ -91,7 +91,7 @@ h2 {
 /* Copyright footer */
 .site-footer {
   clear: both;
-  background-image: url(/img/planet_bg.jpg);
+  background-image: url(../img/planet_bg.jpg);
   background-size: cover;
   width: 100%;
   min-height: 16px;
