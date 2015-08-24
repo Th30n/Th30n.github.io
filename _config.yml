@@ -1,5 +1,6 @@
 title: "Blog title"
 author: "Teon Banek"
+permalink: pretty
 
 # Build options
 markdown: redcarpet

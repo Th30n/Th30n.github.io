@@ -29,7 +29,7 @@
   <ul class="tag-list">
     {% for tag in site.tags %}
     <li>
-      <a href="/tags.html#{{ tag | first | cgi_escape }}">{{ tag | first}}</a>
+      <a href="/tags/#{{ tag | first | cgi_escape }}">{{ tag | first}}</a>
     </li>
     {% endfor %}
   </ul>
