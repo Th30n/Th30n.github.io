@@ -10,10 +10,10 @@ layout: default
         {% for post in posts %}
           {% if post.url %}
             <div style="clear: both">
-              <div class="list-post color-sea-green italic">
+              <div class="list-post italic">
                 {{ post.date | date: "%F"}}
               </div>
-              <div class="list-post">
+              <div class="list-post color-sea-green">
                 <a href="{{ post.url }}">{{ post.title }}</a>
               </div>
             </div>
