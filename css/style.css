@@ -30,6 +30,10 @@
   color: #004473;
 }
 
+.italic {
+  font-style: italic;
+}
+
 body {
   position: absolute;
   margin: 0;
@@ -38,6 +42,8 @@ body {
   min-width: 768px;
   height: 100%;
   min-height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
 h1, h2, h3 {
@@ -69,6 +75,7 @@ a:focus {
 
 .blog-title {
   margin-left: 5%;
+  font-family: 'Vollkorn', serif;
 }
 
 h1 > a:hover {
@@ -86,6 +93,8 @@ h2 {
   float: right;
   word-wrap: break-word;
   margin-right: 2.5%;
+  font-family: 'Vollkorn', serif;
+  font-size: 18px;
 }
 
 .about-link:hover {
@@ -126,6 +135,7 @@ h2 {
 
 .post-date {
   float: right;
+  font-style: italic;
 }
 
 .post-tags > a:hover,
@@ -141,7 +151,13 @@ h2 {
 }
 
 /* Post title */
-h3 > a:hover {
+
+.post-content > h3 {
+  font-family: 'Vollkorn', serif;
+  font-size: 1.5em;
+}
+
+.post-content > h3 > a:hover {
   color: #004473;
 }
 
