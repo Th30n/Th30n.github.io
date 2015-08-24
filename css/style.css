@@ -60,12 +60,22 @@ a:focus {
   outline-style: dotted;
 }
 
+a:hover {
+  color: #195680;
+  text-decoration: underline;
+}
+
 /* Site title */
 
 .site-header {
   padding-top: 20px;
   background-image: url(../img/stars_bg.jpg);
   background-size: cover;
+}
+
+.site-header a:hover {
+  color: #4db5ff;
+  text-decoration: none;
 }
 
 .site-title {
@@ -77,10 +87,6 @@ a:focus {
   margin-left: 5%;
   font-family: 'Vollkorn', serif;
   text-shadow: 2px 2px #0e2714;
-}
-
-h1 > a:hover {
-  color: #4db5ff;
 }
 
 /* Site subtitle description */
@@ -97,10 +103,6 @@ h2 {
   margin-right: 2.5%;
   font-family: 'Vollkorn', serif;
   font-size: 18px;
-}
-
-.about-link:hover {
-  color: #4db5ff;
 }
 
 /* Copyright footer */
@@ -133,6 +135,14 @@ h2 {
   clear: both;
 }
 
+.post-text a {
+  color: #198033;
+}
+
+.post-text a:hover {
+  color: #195680;
+}
+
 .post-tags {
   float: left;
 }
@@ -142,12 +152,7 @@ h2 {
   font-style: italic;
 }
 
-.post-tags > a:hover,
-.list-post > a:hover {
-  color: #195680;
-  text-decoration: underline;
-}
-
+/* Used in tags page */
 .list-post {
   margin-top: 1em;
   margin-left: 1em;
@@ -155,15 +160,13 @@ h2 {
   font-size: 18px;
 }
 
-/* Post title */
-
-.post-content > h3 {
+.post-title {
   font-family: 'Vollkorn', serif;
   font-size: 1.5em;
 }
 
-.post-content > h3 > a:hover {
-  color: #195680;
+.post-title a:hover {
+  text-decoration: none;
 }
 
 /* Tag list area */
@@ -181,9 +184,4 @@ li {
 
 .tag-list {
   padding-left: 20%;
-}
-
-li > a:hover {
-  color: #195680;
-  text-decoration: underline;
 }

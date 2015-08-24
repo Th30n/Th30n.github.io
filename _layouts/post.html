@@ -4,7 +4,7 @@ layout: default
 
 <div class="post bg-light-gray">
   <div class="post-content">
-    <h3>{{ page.title }}</h3>
+    <h3 class="post-title">{{ page.title }}</h3>
     <p class="post-tags color-sea-green">
     {% for tag in page.tags %}
     <a href="/tags/#{{ tag | cgi_escape }}">{{ tag }}</a>
