@@ -22,8 +22,12 @@
   color: #19804d;
 }
 
-.color-blue {
-  color: #2a658d;
+.color-light-blue {
+  color: #4db7ff;
+}
+
+.color-dark-blue {
+  color: #004473;
 }
 
 body {
@@ -68,7 +72,7 @@ a:focus {
 }
 
 h1 > a:hover {
-  color: #2a658d;
+  color: #4db7ff;
 }
 
 /* Site subtitle description */
@@ -85,7 +89,7 @@ h2 {
 }
 
 .about-link:hover {
-  color: #2a658d;
+  color: #4db7ff;
 }
 
 /* Copyright footer */
@@ -125,7 +129,7 @@ h2 {
 
 /* Post title */
 h3 > a:hover {
-  color: #2a658d;
+  color: #004473;
 }
 
 /* Tag list area */
@@ -146,6 +150,6 @@ li {
 }
 
 li > a:hover {
-  color: #2a658d;
+  color: #004473;
   text-decoration: underline;
 }
