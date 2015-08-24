@@ -127,6 +127,7 @@ h2 {
 }
 
 .post-content {
+  clear: both;
   padding: 40px 5%;
 }
 
