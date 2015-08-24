@@ -1,33 +1,33 @@
 .color-dark-gray {
-  color: #353835;
+  color: #353836;
 }
 
 .color-gray {
-  color: #c2ccc2;
+  color: #c2ccc4;
 }
 
 .bg-gray {
-  background-color: #c2ccc2;
+  background-color: #c2ccc4;
 }
 
 .bg-light-gray {
-  background-color: #dae6da;
+  background-color: #dae6dd;
 }
 
 .bg-dark-green {
-  background-color: #002b00;
+  background-color: #0e2714;
 }
 
 .color-sea-green {
-  color: #19804d;
+  color: #198033;
 }
 
 .color-light-blue {
-  color: #4db7ff;
+  color: #4db5ff;
 }
 
 .color-dark-blue {
-  color: #004473;
+  color: #195680;
 }
 
 .italic {
@@ -63,7 +63,7 @@ a:focus {
 /* Site title */
 
 .site-header {
-  padding-top: 60px;
+  padding-top: 20px;
   background-image: url(../img/stars_bg.jpg);
   background-size: cover;
 }
@@ -76,10 +76,11 @@ a:focus {
 .blog-title {
   margin-left: 5%;
   font-family: 'Vollkorn', serif;
+  text-shadow: 2px 2px #0e2714;
 }
 
 h1 > a:hover {
-  color: #4db7ff;
+  color: #4db5ff;
 }
 
 /* Site subtitle description */
@@ -99,7 +100,7 @@ h2 {
 }
 
 .about-link:hover {
-  color: #4db7ff;
+  color: #4db5ff;
 }
 
 /* Copyright footer */
@@ -143,7 +144,7 @@ h2 {
 
 .post-tags > a:hover,
 .list-post > a:hover {
-  color: #004473;
+  color: #195680;
   text-decoration: underline;
 }
 
@@ -162,7 +163,7 @@ h2 {
 }
 
 .post-content > h3 > a:hover {
-  color: #004473;
+  color: #195680;
 }
 
 /* Tag list area */
@@ -183,6 +184,6 @@ li {
 }
 
 li > a:hover {
-  color: #004473;
+  color: #195680;
   text-decoration: underline;
 }
