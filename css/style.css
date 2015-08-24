@@ -84,9 +84,10 @@ h1 > a:hover {
 
 /* Site subtitle description */
 h2 {
-  padding-left: 5%;
+  padding-left: 2.5%;
   padding-top: 16px;
   padding-bottom: 16px;
+  font-size: 18px;
 }
 
 .about-link {
