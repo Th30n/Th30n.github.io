@@ -130,6 +130,25 @@ h2 {
   padding: 40px 5%;
 }
 
+.post-tags {
+  float: left;
+}
+
+.post-date {
+  float: right;
+  font-style: italic;
+}
+
+.post-title {
+  font-family: 'Vollkorn', serif;
+  font-size: 1.8em;
+}
+
+.post-title a:hover {
+  text-decoration: none;
+}
+
+/* Post text related */
 .post-text {
   text-align: justify;
   clear: both;
@@ -143,13 +162,15 @@ h2 {
   color: #195680;
 }
 
-.post-tags {
-  float: left;
+.post-text h1 {
+  font-family: 'Vollkorn', serif;
+  font-size: 1.5em;
 }
 
-.post-date {
-  float: right;
-  font-style: italic;
+.post-text h2 {
+  font-family: 'Vollkorn', serif;
+  font-size: 1.2em;
+  padding: 0;
 }
 
 /* Used in tags page */
@@ -158,15 +179,6 @@ h2 {
   margin-left: 1em;
   float: left;
   font-size: 18px;
-}
-
-.post-title {
-  font-family: 'Vollkorn', serif;
-  font-size: 1.5em;
-}
-
-.post-title a:hover {
-  text-decoration: none;
 }
 
 /* Tag list area */
